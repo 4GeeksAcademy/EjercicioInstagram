@@ -1,0 +1,57 @@
+/*fondo */
+body {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+/*Cuerpo del post*/
+.post {
+    width: 380px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Titulo del post*/
+.post-header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.post-header-title{
+    font-size: small;
+}
+.post-header-icon {
+    font-size: 25px;
+}
+.post-header-options {
+    margin-left: auto;
+}
+.post-header-options i {
+    font-size: 20px;
+}
+/*Imagen del post*/
+.post-img img {
+    width: 100%;
+    height: auto;
+}
+/*Parte final del post*/
+.post-body{
+    font-size: small;
+    padding: 10px;
+    text-align: justify;
+}
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.post-icons-left{
+    margin-right: 10px;
+}
